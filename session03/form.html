@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form HTML</title>
+</head>
+<body>
+<!--
+action: quy định địa chỉ của server nhận thông tin từ form
+method: quy định cách gửi dữ liệu của form
+-->
+<form action="#" method="get">
+    <label>username: </label>
+    <input type="text" name="user_name">
+    <br>
+    <br>
+    <label>password: </label>
+    <input type="password" name="pass">
+    <br>
+    <br>
+    <label>gender: </label>
+    <input type="radio" name="gender" value="nam"> Man
+    <input type="radio" name="gender" value="nu"> Woman
+    <input type="radio" name="gender" value="thu 3"> Other
+    <br>
+    <br>
+    <label>city</label>
+    <select>
+        <option>Da Nang</option>
+        <option>Quang Nam</option>
+        <option>Quang Binh</option>
+        <option>Ha Noi</option>
+        <option>Thanh Hoa</option>
+    </select>
+    <textarea rows="5" cols="50">
+
+    </textarea>
+    <br>
+    <br>
+    <input type="submit" value="Check Username">
+    <br>
+    <br>
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
