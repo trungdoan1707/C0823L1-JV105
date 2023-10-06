@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    // students = Array("NVA", "NVB", "NVC", "NVD");
+    // for(let i = 0; i < students.length; i++){
+    //     document.writeln("<h3>"+ students[i] + "</h3>");
+    // }
+    //
+    // for(let i in students){
+    //     document.writeln("<h3>"+ students[i] + "</h3>");
+    // }
+    //
+    // for(let i of students){
+    //     document.writeln("<h3>"+ i + "</h3>");
+    // }
+
+
+    // students = Array("NVD", "NVB", "NVA", "NVC");
+    // numbers = [1, 22, 2, 33, 4, 34]
+    // /**
+    //  * Các phương thức trong mảng
+    //  */
+    // //Thêm mới
+    // // students.push();
+    // document.writeln("<h1>" + numbers.join("---") + "</h1>")
+
+
+    /**
+     * Mảng đa chiều
+     */
+    students = [
+                ["NVA", "Quảng Nam", 29],
+                ["NVB", "ĐN", 20],
+                ["NVC", "Hue", 15],
+                ["NVD", "QB", 20]
+    ];
+    for (let std of students){
+        document.writeln("Sinh viên " + std[0] + ": ")
+        for (let inf of std){
+            document.writeln(inf)
+        }
+        document.writeln("</br>")
+    }
+</script>
+</body>
+</html>
