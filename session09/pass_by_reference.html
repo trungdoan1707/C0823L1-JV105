@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Truyền tham chiếu</title>
+</head>
+<body>
+
+<script>
+    let arr = [10, 20];
+
+    function swap(arr) {
+        let temp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = temp
+    }
+
+    swap(arr)
+    alert("Giá trị của arr[0] là: " + arr[0])
+    alert("Giá trị của arr[1] là: " + arr[1])
+</script>
+</body>
+</html>

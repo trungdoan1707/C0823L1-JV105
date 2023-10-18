@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function</title>
+</head>
+<body>
+
+<script>
+    function sum2 (a, b){
+        let c = a + b;
+        alert("Tổng của 2 số a và b là: " + c)
+    }
+
+    function sum3 (a, b, c){
+        let d = a + b + c;
+        alert("Tổng của 3 số a và b là: " + d)
+    }
+    function sumArray(...arr) {
+        let total = 0
+        for (let i = 0; i < arr.length; i++) {
+            total += arr[i];
+        }
+        return total;
+
+    }
+
+    let a = 10;
+    let b = 20;
+    let c = 30;
+    let d = 40;
+    alert(sumArray(a, b, c))
+</script>
+</body>
+</html>
